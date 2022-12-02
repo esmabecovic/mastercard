@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.wrapper{
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    padding: 23px 20px;
+}
+ .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+}
+.top .logo img{
+    display: flex;
+    width: 80px;
+    justify-content: flex-start;
+}
+.top .chip img{
+    width: 50px;
+    justify-content: flex-end;
+}
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+.number h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+.number p{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+.name{
+    letter-spacing: 2px;
+}
+.name h2{
+    font-weight: 100;
+    
+}
+.valid h4{
+    font-weight: 100;
+}
+.valid h1{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
